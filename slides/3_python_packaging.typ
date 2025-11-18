@@ -50,7 +50,7 @@
   _From uv2nix talk by \@adisbladis @uv2nix _
 ]
 
-#slide(title: "requirements.txt")[
+#slide(title: "requirements.txt", composer: (4fr, 3fr))[
   #set text(size: .9em)
 
   ```
@@ -66,7 +66,8 @@
 ][
   - Came from Pip
   - List of PEP-508 strings
-  - Usually used with `pip install -r requirements.txt`
+  - Usually used with\
+    `pip install -r requirements.txt`
   - Often alongside `setup.py`
 
   #set align(bottom)
