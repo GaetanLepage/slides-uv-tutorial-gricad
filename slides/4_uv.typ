@@ -253,7 +253,7 @@
 
 #slide(title: "Storage management")[
   #set text(size: .8em)
-  `uv` stores data in multiple places:
+  `uv` #link("https://docs.astral.sh/uv/reference/storage/")[stores data] in multiple places:
   - *#link("https://docs.astral.sh/uv/concepts/cache")[Cache:]*
     - `uv` uses aggressive caching to avoid re-downloading (and re-building) dependencies that have already been accessed in prior runs.
     - Contains downloaded and built dependencies, then linked in the virtual environments.
